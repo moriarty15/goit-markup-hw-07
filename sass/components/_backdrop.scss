@@ -123,7 +123,10 @@
   background-size: contain;
   background-origin: border-box;
   background-position: center;
-  border: transparent;
+  border: $accent-color;
+}
+.checkbox__input:focus-within + .checkbox__icon {
+  border: 2px solid $accent-color;
 }
 .close {
   position: absolute;
