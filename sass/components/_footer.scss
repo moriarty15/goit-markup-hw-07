@@ -2,10 +2,7 @@
   background-color: $second-back-color;
   &__container {
     @extend %container;
-    width: 1200px;
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
     justify-content: space-between;
     padding: 60px 15px;
   }
