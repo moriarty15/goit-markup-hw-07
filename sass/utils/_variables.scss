@@ -6,20 +6,3 @@ $second-back-color: #2f303a;
 $contacts-color: rgba(255, 255, 255, 0.6);
 $team-back-color: #f5f4fa;
 $border-color: #ececec;
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-  color: $second-text-color;
-}
-img {
-  display: block;
-}

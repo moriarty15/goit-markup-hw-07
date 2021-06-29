@@ -1,14 +1,14 @@
 .advantages {
   padding: 94px 0;
-  &__title {
+  .advantages__title {
     @extend %thirdFont;
     margin-top: 30px;
     margin-bottom: 10px;
   }
-  &__list {
+  .advantages__list {
     @extend %list-style;
   }
-  &__item {
+  .advantages__item {
     @extend %primaryFont;
     color: $primary-text-color;
   }

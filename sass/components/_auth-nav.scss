@@ -2,7 +2,7 @@
   @extend %list-style;
   margin-left: auto;
   align-items: center;
-  &__icon {
+  .auth-nav__icon {
     margin-right: 10px;
     fill: currentColor;
   }

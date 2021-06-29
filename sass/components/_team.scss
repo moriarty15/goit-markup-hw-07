@@ -1,19 +1,19 @@
 .team {
   padding: 94px 0;
   background-color: $team-back-color;
-  &__list {
+  .team__list {
     @extend %list-style;
   }
-  &__item {
+  .team__item {
     background-color: $second-text-color;
   }
-  &__item--name {
+  .team__item--name {
     @extend %sixthFont;
     font-weight: 500;
     color: $title-text-color;
     margin-bottom: 10px;
   }
-  &__item--post {
+  .team__item--post {
     @extend %sixthFont;
     color: $primary-text-color;
     margin-bottom: 16px;

@@ -1,6 +1,6 @@
 .footer {
   background-color: $second-back-color;
-  &__container {
+  .footer__container {
     @extend %container;
     display: flex;
     justify-content: space-between;
@@ -19,17 +19,17 @@
   margin-top: 20px;
   color: $second-text-color;
   background-color: $second-back-color;
-  &__item {
+  .address__item {
     @extend %primaryFont;
     color: $second-text-color;
     margin: 0;
   }
-  &__container {
+  .address__container {
     width: 231px;
     margin: 0;
     align-self: baseline;
   }
-  &__item {
+  .address__item {
     margin-bottom: 9px;
     margin-top: 0;
   }
@@ -40,10 +40,10 @@
   display: block;
   margin: 0;
   padding: 0;
-  &__item:not(:last-child) {
+  .contacts__item:not(:last-child) {
     margin-bottom: 9px;
   }
-  &__link {
+  .contacts__link {
     background-color: $second-back-color;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
